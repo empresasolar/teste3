@@ -1,0 +1,6 @@
+{
+  "name": "Globo Solar Energia",
+  "description": "Plataforma web institucional e comercial da Globo Solar Energia com painel administrativo, gerenciamento dinâmico de conteúdo, calculadora solar e sistema de temas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
