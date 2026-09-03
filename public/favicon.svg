@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favSun" x1="32" y1="6" x2="32" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FDE047"/>
+      <stop offset="60%" stopColor="#F59E0B"/>
+      <stop offset="100%" stopColor="#D97706"/>
+    </linearGradient>
+    <linearGradient id="favPanel" x1="12" y1="28" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0284C7"/>
+      <stop offset="100%" stopColor="#0A2558"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Shield/Circle -->
+  <rect width="64" height="64" rx="16" fill="#0A2558"/>
+
+  <!-- Sun Rays -->
+  <g stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round">
+    <line x1="32" y1="7" x2="32" y2="12"/>
+    <line x1="18" y1="13" x2="22" y2="17"/>
+    <line x1="46" y1="13" x2="42" y2="17"/>
+  </g>
+
+  <!-- Half Sun -->
+  <path d="M17 31 A15 15 0 0 1 47 31 Z" fill="url(#favSun)"/>
+
+  <!-- Solar Panel Perspective -->
+  <polygon points="12,34 52,34 58,56 6,56" fill="url(#favPanel)" stroke="#38BDF8" stroke-width="1.5"/>
+  <line x1="9" y1="45" x2="55" y2="45" stroke="#BAE6FD" stroke-width="1.2"/>
+  <line x1="25" y1="34" x2="23" y2="56" stroke="#BAE6FD" stroke-width="1.2"/>
+  <line x1="32" y1="34" x2="32" y2="56" stroke="#BAE6FD" stroke-width="1.4"/>
+  <line x1="39" y1="34" x2="41" y2="56" stroke="#BAE6FD" stroke-width="1.2"/>
+
+  <!-- RC Text -->
+  <text x="32" y="27" fill="#FFFFFF" text-anchor="middle" font-weight="900" font-size="13" font-family="system-ui, sans-serif" letter-spacing="1">RC</text>
+</svg>

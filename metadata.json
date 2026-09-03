@@ -1,0 +1,6 @@
+{
+  "name": "RC Engenharia Solar",
+  "description": "Soluções completas em energia solar fotovoltaica no Acre pela RC Engenharia Solar. Projetos residenciais, comerciais e rurais com economia de até 95%, engenharia própria e assistência técnica especializada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

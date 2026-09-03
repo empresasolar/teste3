@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amber-50: var(--color-primary-light, #fef3c7);
+  --color-amber-100: var(--color-primary-light, #fef3c7);
+  --color-amber-200: var(--color-primary-light, #fde68a);
+  --color-amber-300: var(--color-primary-light, #fcd34d);
+  --color-amber-400: var(--color-primary, #f59e0b);
+  --color-amber-500: var(--color-primary, #f59e0b);
+  --color-amber-600: var(--color-primary-hover, #d97706);
+  --color-amber-700: var(--color-primary-hover, #b45309);
+  --color-amber-800: var(--color-primary-hover, #92400e);
+  --color-amber-900: var(--color-secondary, #78350f);
+  --color-amber-950: var(--color-secondary, #451a03);
+
+  --color-yellow-300: var(--color-primary-light, #fde047);
+  --color-yellow-400: var(--color-primary, #facc15);
+  --color-yellow-500: var(--color-accent, #eab308);
+
+  --color-primary: var(--color-primary, #f59e0b);
+  --color-primary-hover: var(--color-primary-hover, #d97706);
+  --color-primary-light: var(--color-primary-light, #fef3c7);
+  --color-secondary: var(--color-secondary, #0f172a);
+  --color-accent: var(--color-accent, #38bdf8);
+}
+
+:root {
+  --color-primary: #f59e0b;
+  --color-primary-hover: #d97706;
+  --color-primary-light: #fef3c7;
+  --color-secondary: #0f172a;
+  --color-accent: #38bdf8;
+  --color-background: #020617;
+  --color-surface: #0f172a;
+  --color-surface-alt: #1e293b;
+  --color-text: #f8fafc;
+  --color-text-muted: #64748b;
+  --color-border: #1e293b;
+  --app-border-radius: 16px;
+}
+
+/* Custom dynamic theme accents and gradients */
+.theme-gradient-primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+}
+
+.theme-gradient-text {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
